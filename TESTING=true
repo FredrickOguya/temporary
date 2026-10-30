@@ -1,0 +1,159 @@
+TAP version 13
+# Subtest: Blogs API
+    # Subtest: blogs are returned as json and initially empty
+    not ok 1 - blogs are returned as json and initially empty
+      ---
+      duration_ms: 0
+      type: 'test'
+      location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:13:3'
+      failureType: 'cancelledByParent'
+      error: 'test did not finish before its parent and was cancelled'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    # Subtest: a valid blog can be added with authentication
+    not ok 2 - a valid blog can be added with authentication
+      ---
+      duration_ms: 0
+      type: 'test'
+      location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:21:3'
+      failureType: 'cancelledByParent'
+      error: 'test did not finish before its parent and was cancelled'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    # Subtest: created blog appears in blogs list
+    not ok 3 - created blog appears in blogs list
+      ---
+      duration_ms: 0
+      type: 'test'
+      location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:39:3'
+      failureType: 'cancelledByParent'
+      error: 'test did not finish before its parent and was cancelled'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    # Subtest: blog can be updated
+    not ok 4 - blog can be updated
+      ---
+      duration_ms: 0
+      type: 'test'
+      location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:45:3'
+      failureType: 'cancelledByParent'
+      error: 'test did not finish before its parent and was cancelled'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    1..4
+not ok 1 - Blogs API
+  ---
+  duration_ms: 4146.5433
+  type: 'suite'
+  location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:12:1'
+  failureType: 'hookFailed'
+  error: 'Request failed with status code 401'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    settle (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\node_modules\axios\dist\node\axios.cjs:2671:12)
+    IncomingMessage.handleStreamEnd (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\node_modules\axios\dist\node\axios.cjs:5033:11)
+    IncomingMessage.emit (node:events:531:35)
+    endReadableNT (node:internal/streams/readable:1698:12)
+    process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    Axios.request (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\node_modules\axios\dist\node\axios.cjs:6976:43)
+    process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    async login (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\tests\helper.js:37:20)
+    async resetAndSeed (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\tests\helper.js:50:18)
+    async TestContext.<anonymous> (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\tests\api_ch3.test.js:9:14)
+    async TestHook.run (node:internal/test_runner/test:1054:7)
+  ...
+# Subtest: Users API
+    # Subtest: all users are returned
+    not ok 1 - all users are returned
+      ---
+      duration_ms: 0
+      type: 'test'
+      location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:59:3'
+      failureType: 'cancelledByParent'
+      error: 'test did not finish before its parent and was cancelled'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    # Subtest: users have correct properties
+    not ok 2 - users have correct properties
+      ---
+      duration_ms: 0
+      type: 'test'
+      location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:66:3'
+      failureType: 'cancelledByParent'
+      error: 'test did not finish before its parent and was cancelled'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    1..2
+not ok 2 - Users API
+  ---
+  duration_ms: 2.535
+  type: 'suite'
+  location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:58:1'
+  failureType: 'hookFailed'
+  error: 'Request failed with status code 401'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    settle (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\node_modules\axios\dist\node\axios.cjs:2671:12)
+    IncomingMessage.handleStreamEnd (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\node_modules\axios\dist\node\axios.cjs:5033:11)
+    IncomingMessage.emit (node:events:531:35)
+    endReadableNT (node:internal/streams/readable:1698:12)
+    process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    Axios.request (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\node_modules\axios\dist\node\axios.cjs:6976:43)
+    process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    async login (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\tests\helper.js:37:20)
+    async resetAndSeed (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\tests\helper.js:50:18)
+    async TestContext.<anonymous> (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\tests\api_ch3.test.js:9:14)
+    async TestHook.run (node:internal/test_runner/test:1054:7)
+  ...
+# Subtest: Authors API
+    # Subtest: returns author statistics
+    not ok 1 - returns author statistics
+      ---
+      duration_ms: 0
+      type: 'test'
+      location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:78:3'
+      failureType: 'cancelledByParent'
+      error: 'test did not finish before its parent and was cancelled'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    # Subtest: author stats have correct structure
+    not ok 2 - author stats have correct structure
+      ---
+      duration_ms: 0
+      type: 'test'
+      location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:84:3'
+      failureType: 'cancelledByParent'
+      error: 'test did not finish before its parent and was cancelled'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    1..2
+not ok 3 - Authors API
+  ---
+  duration_ms: 0.2503
+  type: 'suite'
+  location: 'C:\\Users\\Admin\\Programming\\Github\\Full-Stack-Open\\Full-Stack-Open\\Part 13\\relational-databases\\tests\\api_ch3.test.js:77:1'
+  failureType: 'hookFailed'
+  error: 'Request failed with status code 401'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    settle (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\node_modules\axios\dist\node\axios.cjs:2671:12)
+    IncomingMessage.handleStreamEnd (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\node_modules\axios\dist\node\axios.cjs:5033:11)
+    IncomingMessage.emit (node:events:531:35)
+    endReadableNT (node:internal/streams/readable:1698:12)
+    process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    Axios.request (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\node_modules\axios\dist\node\axios.cjs:6976:43)
+    process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    async login (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\tests\helper.js:37:20)
+    async resetAndSeed (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\tests\helper.js:50:18)
+    async TestContext.<anonymous> (C:\Users\Admin\Programming\Github\Full-Stack-Open\Full-Stack-Open\Part 13\relational-databases\tests\api_ch3.test.js:9:14)
+    async TestHook.run (node:internal/test_runner/test:1054:7)
+  ...
+1..3
+# tests 8
+# suites 3
+# pass 0
+# fail 0
+# cancelled 8
+# skipped 0
+# todo 0
+# duration_ms 4806.8456
