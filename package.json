@@ -1,21 +1,48 @@
 {
+  "name": "blog-application",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "test": "TESTING=true node --test --test-concurrency=1",
-    "start:test": "TESTING=true node index.js",
-    "migrate": "node -e \"require('./util/db').migrator.up()\""
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
-    "axios": "^1.21.0",
-    "bcrypt": "^6.0.0",
-    "dotenv": "^18.0.8",
-    "express": "^5.3.0",
-    "jsonwebtoken": "^9.0.3",
+    "@mdx-js/loader": "^3.1.1",
+    "@mdx-js/react": "^3.1.1",
+    "@next/mdx": "^16.4.5",
+    "@tailwindcss/postcss": "^4.3.4",
+    "@types/mdx": "^2.0.14",
+    "drizzle-orm": "^0.45.4",
+    "next": "16.4.3",
     "pg": "^8.23.1",
-    "sequelize": "^6.37.8",
-    "umzug": "^3.8.3"
+    "postcss": "^8.5.32",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   },
   "devDependencies": {
-    "cross-env": "^10.1.0"
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/turbopack": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.9",
+    "drizzle-kit": "^0.31.11",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "install": "^0.13.0",
+    "next-auth": "^5.0.0-beta.32",
+    "npm": "^12.2.1",
+    "tailwindcss": "^4.3.4",
+    "typescript": "^5"
   }
 }
